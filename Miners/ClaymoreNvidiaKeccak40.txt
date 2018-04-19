@@ -1,0 +1,13 @@
+[
+{
+    "Type":  "NVIDIA",
+    "Path":  ".\\Bin\\Ethash-Claymore\\EthDcrMiner64.exe",
+    "Arguments":  "-r -1 -mport -13333 -epool $($Pools.Ethash.Host):$($Pools.Ethash.Port) -ewal $($Pools.Ethash.User) -epsw $($Pools.Ethash.Pass) -esm 3 -eres 0 -allpools 1 -allcoins 1 -dpool $($Pools.Keccak.Host):$($Pools.Keccak.Port) -dwal $($Pools.Keccak.User) -dpsw $($Pools.Keccak.Pass) -dcoin keccak -dcri 40 -platform 2",
+    "HashRates":  {
+                      "Ethash":  "$($Stats.ClaymoreNvidiaKeccak40_Ethash_HashRate.Week)",
+                      "Keccak":  "$($Stats.ClaymoreNvidiaKeccak40_Keccak_HashRate.Week)"
+                  },
+    "API":  "Claymore",
+    "Port":  "13333"
+}
+]

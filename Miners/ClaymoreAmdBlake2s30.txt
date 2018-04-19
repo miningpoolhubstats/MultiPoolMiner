@@ -1,0 +1,13 @@
+[
+{
+    "Type":  "AMD",
+    "Path":  ".\\Bin\\Ethash-Claymore\\EthDcrMiner64.exe",
+    "Arguments":  "-r -1 -mport -13333 -epool $($Pools.Ethash.Host):$($Pools.Ethash.Port) -ewal $($Pools.Ethash.User) -epsw $($Pools.Ethash.Pass) -esm 3 -eres 0 -allpools 1 -allcoins 1 -dpool $($Pools.Blake2s.Host):$($Pools.Blake2s.Port) -dwal $($Pools.Blake2s.User) -dpsw $($Pools.Blake2s.Pass) -dcoin blake2s -dcri 30 -platform 1",
+    "HashRates":  {
+                      "Ethash":  "$($Stats.ClaymoreAmdBlake2s30_Ethash_HashRate.Week)",
+                      "Blake2s":  "$($Stats.ClaymoreAmdBlake2s30_Blake2s_HashRate.Week)"
+                  },
+    "API":  "Claymore",
+    "Port":  "13333"
+}
+]
