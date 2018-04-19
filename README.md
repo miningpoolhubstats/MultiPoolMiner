@@ -1,4 +1,4 @@
-# Updated MultiPoolMiner V2.7.1.4 (With MiningPoolHubStats Support)
+# Updated MultiPoolMiner V2.7.1.4.X (With MiningPoolHubStats Support)
 ###### based on MultiPoolMiner created by aaronsace with MiningPoolHubStats created by jimok82) 
 
 ## Important note for those already using MPM who want the reporting feature for https://miningpooolhubstats.com
