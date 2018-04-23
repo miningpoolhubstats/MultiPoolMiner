@@ -47,7 +47,7 @@ param(
     [String]$MPHApiKey #API Key for MiningPoolHubStats.com
 )
 
-$Version = "2.7.1.4.3"
+$Version = "2.7.1.4.5"
 
 Set-Location (Split-Path $MyInvocation.MyCommand.Path)
 
