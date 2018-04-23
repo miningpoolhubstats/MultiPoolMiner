@@ -1,5 +1,5 @@
-# Updated MultiPoolMiner V2.7.1.4 (With MiningPoolHubStats Support)
-###### created by GUICenter (based on MultiPoolMiner created by aaronsace with MiningPoolHubStats created by jimok82) 
+# Updated MultiPoolMiner V2.7.1.4.X (With MiningPoolHubStats Support)
+###### based on MultiPoolMiner created by aaronsace with MiningPoolHubStats created by jimok82) 
 
 ## Important note for those already using MPM who want the reporting feature for https://miningpooolhubstats.com
 
@@ -16,7 +16,7 @@ Append "-MPHApiKey YOUR_API_KEY_GOES_HERE" to your Start-MiningPoolHub.bat comma
     setx GPU_MAX_ALLOC_PERCENT 100
     setx GPU_SINGLE_ALLOC_PERCENT 100
     
-    set "command=& .\multipoolminer.ps1 -wallet 17mcbEXB1v2zaUS4rjM3vjpB5GZSZZtgzW -username GUICenter -workername multipoolminer -region europe -currency btc,usd,eur -type amd,nvidia,cpu -poolname miningpoolhub,miningpoolhubcoins,zpool,nicehash -algorithm cryptonight,decred,decrednicehash,ethash,ethash2gb,equihash,groestl,lbry,lyra2re2,lyra2z,neoscrypt,pascal,sib,skunk -donate 24 -watchdog -switchingprevention 2 -MPHApiKey asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd1234"
+    set "command=& .\multipoolminer.ps1 -username jimok82 -workername multipoolminer -region europe -currency btc,usd,eur -type amd,nvidia,cpu -poolname miningpoolhub,miningpoolhubcoins,zpool,nicehash -algorithm cryptonight,decred,decrednicehash,ethash,ethash2gb,equihash,groestl,lbry,lyra2re2,lyra2z,neoscrypt,pascal,sib,skunk -donate 24 -watchdog -switchingprevention 2 -MPHApiKey asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd1234"
 
     pwsh -noexit -executionpolicy bypass -windowstyle maximized -command "%command%"
     powershell -version 5.0 -noexit -executionpolicy bypass -windowstyle maximized -command "%command%"
@@ -44,7 +44,6 @@ Updated FAQs can be found here: https://github.com/MultiPoolMiner/MultiPoolMiner
 - **Supports benchmarking, multiple platforms (AMD, NVIDIA and CPU) and mining on MiningPoolHub, Zpool, Hash Refinery and Nicehash (Ahashpool support is coming soon)**
 - **Includes Watchdog Timer to detect and handle miner failures**
 
-*Any bitcoin donations are greatly appreciated: 17mcbEXB1v2zaUS4rjM3vjpB5GZSZZtgzW*
 
 
 ====================================================================
